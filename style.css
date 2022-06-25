@@ -18,10 +18,7 @@ body{
     font-family: 'Overpass', sans-serif;
 }
 
-img{
-    width: 100%;
-    height: auto;
-}
+
 
 .list_menu_1,
 .list_menu_2,
@@ -229,4 +226,28 @@ margin-right: 30px ;
 .btn_final_2:hover{
     background-color: #fff;
     color: var(--primer-rosado);
+}
+
+.firts_seccion{
+  margin: 130px 30px;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  
+}
+.firts_seccion p{
+    line-height: 1.6;
+}
+
+.editor_mobile{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.firts_seccion h2{
+    font-size: 27px;
+}
+
+.titulo_2_firts{
+    margin-top: 40px;
 }
