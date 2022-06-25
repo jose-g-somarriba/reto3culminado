@@ -1,0 +1,232 @@
+:root{
+    --primer-rosado: hsl(356, 100%, 66%);
+    --segundo-rosado: hsl(355, 100%, 74%);
+    --azul-oscuro: hsl(208, 49%, 24%);
+    --White: hsl(0, 0%, 100%);
+    --Grayish: hsl(240, 2%, 79%);
+    --Very-dark-blue : hsl(207, 13%, 34%);
+    --Very-dark : hsl(240, 10%, 16%);
+    --gradiante: linear-gradient(90deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 100%);
+    --fuente: 'Overpass', sans-serif;
+}
+
+body{
+    margin: 0;
+    top: 0;
+    overflow-x: hidden;
+    Font-size: 16px;
+    font-family: 'Overpass', sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.list_menu_1,
+.list_menu_2,
+.list_menu_3{
+    list-style: none;
+}
+.menu_nav li{
+    list-style: none;
+}
+
+.list_menu_1,
+.list_menu_2,
+.list_menu_3{
+    box-sizing: border-box;
+    background-color: var(--Grayish);
+    opacity: 0.7;
+    width: 150px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    display: none;
+}
+.list_menu_1 a,
+.list_menu_2 a,
+.list_menu_3 a{
+text-decoration: none;
+color: var(--Very-dark);
+}
+
+.btn_1.is-active-rotate-1,
+.btn_2.is-active-rotate-2,
+.btn_3.is-active-rotate-3{
+    transform: rotate(180deg);
+    transition: .7s;
+}
+
+.btn_1,
+.btn_2,
+.btn_3{
+    transform: rotate(360deg);
+    transition: .7s;
+}
+
+.list_menu_1.is-active-1{
+    display: block;
+    
+}
+.list_menu_2.is-active-2{
+    display: block;
+}
+
+.list_menu_3.is-active-3{
+    display: block;
+}
+.menu_nav{
+    
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999;
+    transform: translateX(300%);
+    transition: 2s;
+
+ 
+}
+
+.menu_nav.is-active-hambur{
+    transform: translate(0);
+    transition: 1s;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*reset*/
+
+
+.contend_header{  
+    width: 100%;
+    background: url("images/bg-pattern-intro-mobile.svg"), var(--gradiante);
+    background-position-x: 250%;
+    background-position-y: 55%;
+    border-radius: 0 0 0 110px;
+    height: 500px;
+    margin-top: -20px; 
+    font-family: 'Overpass', sans-serif;
+    background-attachment: fixed;
+    background-size: 910px;
+}
+
+.btn_menu1{
+    border-style: none;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    background-color:var(--segundo-rosado);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.input_menu{
+    margin-top: 40px;
+}
+
+.menu_desplegable_1,
+.menu_desplegable_2,
+.menu_desplegable_3{
+margin-right: 30px ;
+}
+
+.contend_header h1{
+    color: #fff;
+}
+
+.contend_final_header{
+    color:#fff ;
+}
+
+.inicio{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content:space-between;
+    padding: 20px 40px;
+}
+
+.contend_final_header{
+     position: relative;
+     z-index: 998;
+     top:-230px;
+     text-align: center;
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.menu_desplegable_1:hover,
+.menu_desplegable_2:hover,
+.menu_desplegable_3:hover{
+    cursor: pointer;
+}
+
+/* .hamburguesa{
+    position: relative;
+    z-index: 999;
+
+}
+
+.equis{
+    position: relative;
+    z-index: 998;
+
+} */
+
+
+.contend_finish h2{
+    font-size: 32px;
+}
+
+.btn_finish{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.btn_final_1,
+.btn_final_2{
+    border-style: none;
+    margin:0 15px;
+    width: 120px;
+    height: 36px;
+    font-family: var(--fuente);
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.btn_final_1{
+    background-color: #fff;
+    color: var(--primer-rosado);
+}
+
+.btn_final_2{
+    background-color: var(--primer-rosado);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn_final_1:hover{
+    background-color: var(--primer-rosado);
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn_final_2:hover{
+    background-color: #fff;
+    color: var(--primer-rosado);
+}
