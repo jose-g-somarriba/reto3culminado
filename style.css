@@ -310,3 +310,43 @@ margin-right: 30px ;
     line-height: 1.6;
 }
 
+.footer_final{
+    background-color: var(--Very-dark);
+    text-align: center;
+    height: 600px;
+    border-radius: 0 100px 0 0;
+    margin-top: 80px;
+    
+}
+
+.footer_final h2{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 13px;
+    font-size: 32px;
+}
+
+.footer_final ul{
+color: #fff;
+list-style: none;
+
+
+}
+.footer_final li > a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.listas_finales{
+    margin: 60px 0;
+}
+
+.listas_finales li{
+    margin: 5px 0;
+
+}
+.li_final_1{
+    font-weight: bold;
+}
