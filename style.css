@@ -194,6 +194,8 @@ margin-right: 30px ;
     display: flex;
     flex-wrap: nowrap;
     box-sizing: border-box;
+    position: relative;
+    z-index: 1;
 }
 .btn_final_1,
 .btn_final_2{
@@ -204,6 +206,7 @@ margin-right: 30px ;
     font-family: var(--fuente);
     font-weight: bold;
     border-radius: 25px;
+    
 }
 
 .btn_final_1{
@@ -251,3 +254,59 @@ margin-right: 30px ;
 .titulo_2_firts{
     margin-top: 40px;
 }
+
+.second_section{
+    background: url(images/bg-pattern-circles.svg), var(--azul-oscuro);
+    background-position-x: 40%;
+    background-position-y: -280px;
+    background-size: 700px 700px;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 0 100px 0 100px;
+    margin-bottom: 100px;
+    margin-top: 250px;
+   
+
+
+}
+.text_second_section{
+    padding: 0 40px;
+    text-align: center;
+    font-family: var(--fuente);
+    color: #fff;
+}
+.text_second_section h2{
+    font-size: 32px;
+}
+.text_second_section p{
+    line-height: 1.6;
+}
+
+.phones_mobil{
+   
+    margin-top: -180px;
+
+}
+.text_section_tercer{
+    text-align: center;
+    padding: 0 40px;
+    font-family: var(--fuente);
+    
+}
+.text_section_tercer h2{
+    font-size: 32px;
+}
+
+.h2_tercer_1{
+    margin: 40px 0;
+}
+.h2_tercer_2{
+    margin: 40px 0;
+
+}
+.text_section_tercer p{
+    line-height: 1.6;
+}
+
