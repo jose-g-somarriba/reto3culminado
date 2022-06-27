@@ -89,7 +89,7 @@ color: var(--Very-dark);
     font-weight: bold;
     position: relative;
     z-index: 999;
-    transform: translateX(300%);
+    transform: translateX(-200%);
     transition: 2s;
 
  
